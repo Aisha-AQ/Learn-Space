@@ -1,0 +1,6 @@
+namespace LearnSpaceApi.Areas.HelpPage.ModelDescriptions
+{
+    public class DictionaryModelDescription : KeyValuePairModelDescription
+    {
+    }
+}

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="671aafbc92c54db38585b9881d999636" Name="Diagram1">
+        <EntityTypeShape EntityType="kk1Model.Appointment" Width="1.5" PointX="5.25" PointY="34.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="kk1Model.AppointmentPersonPractice" Width="1.5" PointX="11.25" PointY="30.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="kk1Model.AppointmentPersonTest" Width="1.5" PointX="10.5" PointY="27.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="kk1Model.AppointmentPractice" Width="1.5" PointX="7.5" PointY="38.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="kk1Model.AppointmentTest" Width="1.5" PointX="7.5" PointY="41.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="kk1Model.CaregiverPurposal" Width="1.5" PointX="3" PointY="26.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="kk1Model.Collection" Width="1.5" PointX="8.25" PointY="44.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="kk1Model.Patient" Width="1.5" PointX="0.75" PointY="20" IsExpanded="true" />
+        <EntityTypeShape EntityType="kk1Model.PatientTestCollectionFeedback" Width="1.5" PointX="10.5" PointY="40" IsExpanded="true" />
+        <EntityTypeShape EntityType="kk1Model.Person" Width="1.5" PointX="3" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="kk1Model.PersonIdentification" Width="1.5" PointX="5.25" PointY="21.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="kk1Model.PersonIdentificationFeedback" Width="1.5" PointX="10.5" PointY="33.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="kk1Model.PersonPicture" Width="1.5" PointX="5.25" PointY="30.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="kk1Model.PersonPracticCollection" Width="1.5" PointX="5.25" PointY="27.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="kk1Model.PersonPractice" Width="1.5" PointX="6" PointY="23.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="kk1Model.PersonTest" Width="1.5" PointX="3" PointY="21.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="kk1Model.PersonTestCollection" Width="1.5" PointX="8.25" PointY="30" IsExpanded="true" />
+        <EntityTypeShape EntityType="kk1Model.Practice" Width="1.5" PointX="3" PointY="41.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="kk1Model.PracticeCollection" Width="1.5" PointX="5.25" PointY="42.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="kk1Model.Sentence" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="kk1Model.Test" Width="1.5" PointX="3" PointY="45.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="kk1Model.TestCollection" Width="1.5" PointX="5.25" PointY="44.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="kk1Model.User" Width="1.5" PointX="0.75" PointY="25.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="kk1Model.UserPatient" Width="1.5" PointX="8" PointY="27.125" IsExpanded="true" />
+        <AssociationConnector Association="kk1Model.FK_AppointmentPersonPractice_Appointment" ManuallyRouted="false" />
+        <AssociationConnector Association="kk1Model.FK_AppointmentPersonTest_Appointment" ManuallyRouted="false" />
+        <AssociationConnector Association="kk1Model.FK_AppointmentPractice_Appointment" ManuallyRouted="false" />
+        <AssociationConnector Association="kk1Model.FK_AppointmentTest_Appointment" ManuallyRouted="false" />
+        <AssociationConnector Association="kk1Model.fk_Parient" ManuallyRouted="false" />
+        <AssociationConnector Association="kk1Model.FK_PatientTestCollectionFeedback_Appointment" ManuallyRouted="false" />
+        <AssociationConnector Association="kk1Model.FK_PersonIdentificationFeedback_Appointment" ManuallyRouted="false" />
+        <AssociationConnector Association="kk1Model.fk_pracV" ManuallyRouted="false" />
+        <AssociationConnector Association="kk1Model.fk_testV" ManuallyRouted="false" />
+        <AssociationConnector Association="kk1Model.fk_user" ManuallyRouted="false" />
+        <AssociationConnector Association="kk1Model.FK_AppointmentPersonPractice_PersonPractice" ManuallyRouted="false" />
+        <AssociationConnector Association="kk1Model.FK_AppointmentPersonTest_PersonTest" ManuallyRouted="false" />
+        <AssociationConnector Association="kk1Model.FK_AppointmentPractice_Practice" ManuallyRouted="false" />
+        <AssociationConnector Association="kk1Model.FK_AppointmentTest_Test" ManuallyRouted="false" />
+        <AssociationConnector Association="kk1Model.FK_CaregiverPurposal_Patient" ManuallyRouted="false" />
+        <AssociationConnector Association="kk1Model.FK_CaregiverPurposal_User" ManuallyRouted="false" />
+        <AssociationConnector Association="kk1Model.fk_collectionPtc" ManuallyRouted="false" />
+        <AssociationConnector Association="kk1Model.fk_collectionT" ManuallyRouted="false" />
+        <AssociationConnector Association="kk1Model.FK_op1" ManuallyRouted="false" />
+        <AssociationConnector Association="kk1Model.FK_op2" ManuallyRouted="false" />
+        <AssociationConnector Association="kk1Model.FK_op3" ManuallyRouted="false" />
+        <AssociationConnector Association="kk1Model.FK_patientId" ManuallyRouted="false" />
+        <AssociationConnector Association="kk1Model.fk_patientPtc" ManuallyRouted="false" />
+        <AssociationConnector Association="kk1Model.FK_PersonIdentification_patient" ManuallyRouted="false" />
+        <AssociationConnector Association="kk1Model.FK_PersonIdentificationFeedback_patient" ManuallyRouted="false" />
+        <AssociationConnector Association="kk1Model.FK_PersonPractice_patient" ManuallyRouted="false" />
+        <AssociationConnector Association="kk1Model.FK_PersonTest_Patient" ManuallyRouted="false" />
+        <AssociationConnector Association="kk1Model.FK_TestCollection" ManuallyRouted="false" />
+        <AssociationConnector Association="kk1Model.FK_Person_User" ManuallyRouted="false" />
+        <AssociationConnector Association="kk1Model.FK_PersonIdentificationFeedback_person" ManuallyRouted="false" />
+        <AssociationConnector Association="kk1Model.FK_personOp1" ManuallyRouted="false" />
+        <AssociationConnector Association="kk1Model.FK_personOp2" ManuallyRouted="false" />
+        <AssociationConnector Association="kk1Model.FK_personOp3" ManuallyRouted="false" />
+        <AssociationConnector Association="kk1Model.FK_PersonPicture_person" ManuallyRouted="false" />
+        <AssociationConnector Association="kk1Model.FK_PersonPracticCollection_Person" ManuallyRouted="false" />
+        <AssociationConnector Association="kk1Model.FK_PersonTestCollection_person" ManuallyRouted="false" />
+        <AssociationConnector Association="kk1Model.FK_PersonIdentification_PersonTest" ManuallyRouted="false" />
+        <AssociationConnector Association="kk1Model.FK_PersonIdentificationFeedback_PersonTest" ManuallyRouted="false" />
+        <AssociationConnector Association="kk1Model.FK_PersonPracticCollection_PersonPractice" ManuallyRouted="false" />
+        <AssociationConnector Association="kk1Model.FK_PersonPractice_User" ManuallyRouted="false" />
+        <AssociationConnector Association="kk1Model.FK_PersonTest_PersonTest" ManuallyRouted="false" />
+        <AssociationConnector Association="kk1Model.FK_PersonTest_User" ManuallyRouted="false" />
+        <AssociationConnector Association="kk1Model.FK_PersonTestCollection_PersonTest" ManuallyRouted="false" />
+        <AssociationConnector Association="kk1Model.FK_pracCreateBy" ManuallyRouted="false" />
+        <AssociationConnector Association="kk1Model.fk_practice" ManuallyRouted="false" />
+        <AssociationConnector Association="kk1Model.fk_test" ManuallyRouted="false" />
+        <AssociationConnector Association="kk1Model.FK_TestCreateBy" ManuallyRouted="false" />
+        <AssociationConnector Association="kk1Model.FK_userId" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
